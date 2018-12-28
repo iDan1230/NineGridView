@@ -60,12 +60,6 @@ public class MainActivity extends AppCompatActivity {
         urls.clear();
         nine.setUrls(urls);
 
-        nine.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Log.e("NINE : ", "height: " + nine.getMeasuredHeight() + " width: " + nine.getMeasuredWidth());
-            }
-        }, 1000);
     }
 
     /**
