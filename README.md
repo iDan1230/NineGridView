@@ -13,10 +13,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 ```
+
 ## 两个自定义属性
+```
 <!--间距--><br>
 <attr name="nineSpace" format="dimension"></attr><br>
 <!--4张图时，是否已2行2列布局--><br>
 <attr name="nineAlignment" format="boolean"></attr><br>
+```
 
 
