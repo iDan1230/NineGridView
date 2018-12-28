@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         urls.add("http://pic3.16pic.com/00/03/88/16pic_388730_b.jpg");
         urls.add("http://img15.3lian.com/2015/a1/13/d/22.jpg");
         urls.add("http://pic2.16pic.com/00/33/17/16pic_3317149_b.jpg");
-
         nine.setOnNineListener(new NineGridView.OnNineClickListener() {
             @Override
             public void onNineListener(View v, int position, String url) {
@@ -39,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 startCompat(intent, v, "NineView");
             }
         });
-
         nine.setUrls(urls);
 
     }
